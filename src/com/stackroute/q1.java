@@ -34,6 +34,7 @@ public class q1 {
         else
             list.add("The string is not palindrome");
         list.add(rev);
+        System.out.println(list);
         return list.toArray(new String[list.size()]);
     }
 
